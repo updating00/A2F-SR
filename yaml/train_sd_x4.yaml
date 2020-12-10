@@ -4,7 +4,7 @@ n_GPUs: 1
 cudnn_benchmark: True
 
 dataset:
-      dir_root: '../DIV2K'
+      dir_root: '/kaggle/working/DIV2K'
       dir_hr: 'DIV2K_train_HR'
       dir_lr: 'DIV2K_train_LR_bicubic/X4'
       dir_hr_eval: 'DIV2K_train_HR'            #This can be modified according to your need. It is used for evaluating the performance of model at a specific epoch
